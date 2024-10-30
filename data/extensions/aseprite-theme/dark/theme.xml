@@ -144,6 +144,7 @@
         <part id="cursor_rotate_nw" x="240" y="160" w="16" h="16" focusx="8" focusy="8" />
         <part id="cursor_eyedropper" x="80" y="224" w="16" h="16" focusx="0" focusy="15" />
         <part id="cursor_magnifier" x="80" y="240" w="16" h="16" focusx="5" focusy="5" />
+        <part id="cursor_paint_bucket" x="64" y="240" w="16" h="16" focusx="12" focusy="15" />
         <part id="radio_normal" x="64" y="64" w="8" h="8" />
         <part id="radio_selected" x="64" y="80" w="8" h="8" />
         <part id="radio_disabled" x="64" y="64" w="8" h="8" />
