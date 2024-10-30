@@ -303,6 +303,11 @@ bool DrawingState::onSetCursor(Editor* editor, const gfx::Point& mouseScreenPos)
     editor->showMouseCursor(
       kCustomCursor, theme->cursors.eyedropper());
   }
+  else if (m_toolLoop->getInk()->isFloodFill()) {
+    auto theme = skin::SkinTheme::get(editor);
+    editor->showMouseCursor(
+      kCustomCursor, theme->cursors.paintBucket());
+  }
   else {
     editor->showBrushPreview(mouseScreenPos);
   }

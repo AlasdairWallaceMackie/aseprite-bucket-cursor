@@ -50,6 +50,9 @@ namespace app {
       // Returns true if this ink picks colors from the image
       virtual bool isEyedropper() const { return false; }
 
+      // Returns true if this ink acts like a paint bucket
+      virtual bool isFloodFill() const { return false; }
+
       // Returns true if this ink is shading
       virtual bool isShading() const { return false; }
 
